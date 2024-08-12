@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background: linear-gradient(to bottom, #242424,  rgba(38, 38, 38, 0.711), transparent);
+}
+
+.bg-navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    align-content: center;
+    align-items: center;
+  }
+  
+.bg-navbar .menu-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-menu {
+  a {
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: gray;
+  }
+}
+
+.bg-navbar .menu-user {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu-user svg {
+  width: 100%;
+}
+
+.profile img {
+  width: 40px;
+  border-radius: 4px;
+  height: auto;
+  display: block;
+}
+
+
+  
+
